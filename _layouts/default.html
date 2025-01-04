@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about.html' | relative_url }}">About Me</a></li>
+        <li><a href="{{ '/publications.html' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/skills.html' | relative_url }}">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main style="padding-bottom: 20px;">
+    {{ content }}
+  </main>
+  
+  <footer style="text-align: center; padding: 10px 0; background-color: #333; color: white; position: relative; margin-top: 40px;">
+    <p>&copy; Hung-Chieh Wu - hungchieh@psu.edu</p>
+  </footer>
+</body>
+</html>
