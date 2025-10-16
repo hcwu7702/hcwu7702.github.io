@@ -49,10 +49,13 @@ nav a.active { background: rgba(255,255,255,0.12); }
 .hero p { color: var(--muted); font-size: 1.05rem; margin: 0.25rem 0 0.75rem; }
 
 .features { display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap; margin: 1rem 0; }
-.feature-img {
+.features.container .feature-img,
+.features .feature-img {
   /* responsive width: min 180px, preferred 24vw, max 300px */
-  width: clamp(180px, 24vw, 300px);
-  max-width: 48%;
+  width: clamp(180px, 24vw, 300px) !important;
+  max-width: 48% !important;
+  display: block;
+  margin: 0.25rem auto;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(15,23,42,0.08);
