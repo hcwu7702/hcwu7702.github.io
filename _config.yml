@@ -3,7 +3,7 @@ email: hungchieh@psu.edu
 description: >-
   Reinforcement Learning and Robotics Researcher. Ph.D. student with expertise
   in quadruped robots, control systems, and machine learning applications.
-baseurl: "/hungchieh-website" # This should match your GitHub repository name
+baseurl: "" # This should match your GitHub repository name
 url: "https://hcwu7702.github.io" # Update this to your GitHub Pages URL
 
 # Social media usernames
