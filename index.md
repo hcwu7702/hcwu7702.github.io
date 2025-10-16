@@ -6,7 +6,7 @@ title: "Home"
 <section class="hero">
   <div class="container">
     <h1>Welcome to Hung-Chieh's Website</h1>
-    <p>Hello, I'm <strong>Hung-Chieh</strong>, a Ph.D. student specializing in <strong>Reinforcement Learning</strong> and <strong>Robotics</strong> at Penn State.</p>
+    <p>Hello, I am <strong>Hung-Chieh</strong>, a Ph.D. student specializing in <strong>Reinforcement Learning</strong> and <strong>Robotics</strong> at Penn State.</p>
     <p>My research focuses on quadruped robots, applying advanced machine learning techniques to enhance robotic locomotion and adaptability.</p>
   </div>
 </section>
