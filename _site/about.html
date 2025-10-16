@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+  Layout: default.html
+  Purpose: Main site wrapper used by pages. Contains header/navigation, content placeholder, and footer.
+  Navigation links use relative filenames so links work both on GitHub Pages and local previews.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Hung-Chieh Wu</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container" aria-label="Main navigation">
+      <div style="display:flex; align-items:center; gap:1rem;">
+        <h1 class="site-title"><a href="index.html" style="color:inherit; text-decoration:none;">Hung-Chieh Wu</a></h1>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 id="about-me">About Me</h1>
+
+<h2 id="education">Education</h2>
+<ul>
+  <li><strong>Ph.D. in Electrical Engineering</strong>, Pennsylvania State University (2022 - Present, GPA: 3.78)</li>
+  <li><strong>B.S. in Bio-Industrial Mechatronics Engineering</strong>, National Chung Hsing University (2017 - 2021, GPA: 4.13, Rank: 1/53)</li>
+</ul>
+
+<h2 id="key-experiences">Key Experiences</h2>
+
+<h3 id="teaching-assistant-fall-2023---present">Teaching Assistant (Fall 2023 - Present)</h3>
+<ul>
+  <li>Led MATLAB and SIMULINK lab sessions for Linear Control Systems courses, helping students understand theoretical and practical aspects of control systems.</li>
+  <li>Assisted professors in planning and executing lab experiments, ensuring smooth operation during sessions.</li>
+</ul>
+
+<h3 id="research-assistant-spring-2020---fall-2022">Research Assistant (Spring 2020 - Fall 2022)</h3>
+<ul>
+  <li><strong>Wild Bird Tracking and Repelling System</strong>:
+    <ul>
+      <li>Developed an AI-driven system using the YOLO algorithm to detect and repel birds with low-power lasers, reducing the risk of avian influenza.</li>
+    </ul>
+  </li>
+  <li><strong>Autonomous Plant Water-Stress Monitoring System</strong>:
+    <ul>
+      <li>Designed and built an integrated system combining RGB and thermal cameras for real-time monitoring of plant health in greenhouses.</li>
+    </ul>
+  </li>
+</ul>
+
+<div style="display: flex; gap: 20px;">
+  <div>
+    <img src="assets/Plant_Water_Stress_Monitoring_System_1.jpg" alt="RGB and thermal image integration system for plant monitoring" style="width: 100%;" />
+    <p style="text-align: center; font-size: 0.9em; color: #555;">Experimental setup for plant health monitoring in a greenhouse</p>
+  </div>
+  <div>
+    <img src="assets/Plant_Water_Stress_Monitoring_System_2.jpg" alt="Experimental setup for plant health monitoring" style="width: 100%;" />
+    <p style="text-align: center; font-size: 0.9em; color: #555;">RGB and thermal image integration system for plant monitoring.</p>
+  </div>
+</div>
+
+<ul>
+  <li>Above projects are collaborated with industry partners (iChase and Hugreen) and funded by the Ministry of Science and Technology of Taiwan.</li>
+</ul>
+
+<h3 id="agricultural-robot-competition-spring-2019---fall-2020">Agricultural-Robot Competition (Spring 2019 - Fall 2020)</h3>
+<ul>
+  <li>Designed and implemented agricultural robots capable of irrigation, object detection, and terrain navigation.</li>
+  <li>Achieved awards in national competitions for innovative designs and teamwork.</li>
+</ul>
+
+<div style="display: flex; gap: 20px;">
+  <div>
+    <img src="assets/Agricultural_Robot_Competition_1.jpg" alt="Robot demonstrating plant watering capabilities" style="width: 100%;" />
+    <p style="text-align: center; font-size: 0.9em; color: #555;">Robot demonstrating plant watering capabilities during the competition.</p>
+  </div>
+  <div>
+    <img src="assets/Agricultural_Robot_Competition_2.jpg" alt="Team receiving award at the Agricultural-Robot Competition" style="width: 100%;" />
+    <p style="text-align: center; font-size: 0.9em; color: #555;">Main features for robot to complete the competition.</p>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hung-Chieh Wu - hungchieh@psu.edu</p>
+    </div>
+  </footer>
+</body>
+</html>
