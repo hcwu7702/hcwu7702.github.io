@@ -1,8 +1,9 @@
 title: "Hung-Chieh Wu"
 email: hungchieh@psu.edu
 description: >-
-  Reinforcement Learning and Robotics Researcher. Ph.D. student with expertise
-  in quadruped robots, control systems, and machine learning applications.
+  Hung-Chieh Wu — Ph.D. candidate at Penn State working on learning-based
+  control, estimation, and navigation for legged robots: quadruped locomotion,
+  reinforcement learning, and robot navigation.
 baseurl: "" # This should match your GitHub repository name
 url: "https://hcwu7702.github.io" # Update this to your GitHub Pages URL
 
@@ -13,6 +14,7 @@ github_username: hcwu7702
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing
 exclude:
